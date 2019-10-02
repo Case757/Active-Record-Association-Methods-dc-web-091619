@@ -18,3 +18,5 @@ class Artist < ActiveRecord::Base
     self.songs.map {|song| song.genre}.uniq.count
   end
 end
+
+MADE CHANGES
